@@ -5,6 +5,7 @@ import { PortfolioSection } from '@/components/sections/portfolio-section';
 import { SkillsSection } from '@/components/sections/skills-section';
 import { ContactSection } from '@/components/sections/contact-section';
 import { Footer } from '@/components/layout/footer';
+import { VideoPortfolioSection } from '@/components/sections/video-portfolio-section';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <VisionMissionSection />
       <ExperienceSection />
       <PortfolioSection />
+      <VideoPortfolioSection />
       <SkillsSection />
       <ContactSection />
       <Footer />
