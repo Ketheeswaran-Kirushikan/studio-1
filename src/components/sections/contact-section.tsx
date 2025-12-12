@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail } from 'lucide-react';
+import { Instagram, Linkedin, Mail, Facebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ContactForm } from '@/components/contact-form';
@@ -6,11 +6,12 @@ import { Icons } from '@/components/icons';
 import { AnimatedSection } from '@/components/ui/animated-section';
 
 const socialLinks = [
-  { name: 'Behance', icon: Icons.behance, href: '#' },
-  { name: 'Instagram', icon: Instagram, href: '#' },
-  { name: 'LinkedIn', icon: Linkedin, href: '#' },
-  { name: 'Email', icon: Mail, href: 'mailto:#' },
-  { name: 'WhatsApp', icon: Icons.whatsapp, href: '#' },
+    { name: 'Behance', icon: Icons.behance, href: '#' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/_abiblaze09_/' },
+    { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/share/14QR6MJ1Rus/' },
+    { name: 'LinkedIn', icon: Linkedin, href: '#' },
+    { name: 'Email', icon: Mail, href: 'mailto:abibarman.27@gmail.com' },
+    { name: 'WhatsApp', icon: Icons.whatsapp, href: 'https://wa.me/94774994671' },
 ];
 
 export function ContactSection() {
