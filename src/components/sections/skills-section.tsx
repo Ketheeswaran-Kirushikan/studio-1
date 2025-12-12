@@ -7,11 +7,11 @@ export function SkillsSection() {
     <section id="skills" className="w-full py-20 md:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <AnimatedSection>
-          <Card className="max-w-4xl mx-auto bg-card/80 backdrop-blur-sm shadow-lg border-primary/20">
+          <Card className="max-w-4xl mx-auto bg-card/80 backdrop-blur-sm shadow-lg border-border">
             <CardContent className="p-8 md:p-12">
               <div className="relative">
                 <Quote className="absolute -top-6 -left-6 h-16 w-16 text-primary/20" />
-                <blockquote className="text-xl md:text-2xl font-medium text-accent italic relative z-10">
+                <blockquote className="text-xl md:text-2xl font-medium text-foreground italic relative z-10">
                   “Possesses extensive hands-on experience in video editing, product photography, and social media management, with a proven track record of growing brand presence on platforms like Instagram, Facebook, and YouTube.”
                 </blockquote>
                 <Quote className="absolute -bottom-6 -right-6 h-16 w-16 text-primary/20 transform rotate-180" />
