@@ -60,15 +60,15 @@ export function ExperienceSection() {
         <div className="grid gap-6 sm:grid-cols-2 lg:gap-8 max-w-6xl mx-auto">
           {experiences.map((exp, index) => (
             <AnimatedSection key={exp.title} delay={index * 100}>
-              <Card className="h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border hover:border-primary">
-                <CardHeader className="flex flex-row items-center gap-4">
+              <Card className="h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border hover:border-primary text-center sm:text-left">
+                <CardHeader className="flex flex-col sm:flex-row items-center gap-4">
                   {exp.icon}
                   <CardTitle className="text-foreground">{exp.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-muted-foreground">
                     {exp.points.map(point => (
-                      <li key={point} className="flex items-center">
+                      <li key={point} className="flex items-center justify-center sm:justify-start">
                         <Check className="h-4 w-4 mr-2 text-primary" />
                         <span>{point}</span>
                       </li>

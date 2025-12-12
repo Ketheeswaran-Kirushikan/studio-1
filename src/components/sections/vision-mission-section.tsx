@@ -18,7 +18,7 @@ export function VisionMissionSection() {
         </AnimatedSection>
         <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-1 md:grid-cols-3 md:gap-12 lg:max-w-6xl lg:gap-16 pt-12">
           <AnimatedSection delay={100}>
-            <Card className="h-full bg-card/80 backdrop-blur-sm shadow-lg border-border hover:border-primary transition-colors">
+            <Card className="h-full bg-card/80 backdrop-blur-sm shadow-lg border-border hover:border-primary transition-colors text-center md:text-left">
               <CardHeader>
                 <CardTitle className="text-foreground">Vision</CardTitle>
               </CardHeader>
@@ -31,7 +31,7 @@ export function VisionMissionSection() {
           </AnimatedSection>
 
           <AnimatedSection delay={200}>
-            <Card className="h-full bg-card/80 backdrop-blur-sm shadow-lg border-border hover:border-primary transition-colors">
+            <Card className="h-full bg-card/80 backdrop-blur-sm shadow-lg border-border hover:border-primary transition-colors text-center md:text-left">
               <CardHeader>
                 <CardTitle className="text-foreground">Goals</CardTitle>
               </CardHeader>
@@ -53,7 +53,7 @@ export function VisionMissionSection() {
           </AnimatedSection>
 
           <AnimatedSection delay={300}>
-            <Card className="h-full bg-card/80 backdrop-blur-sm shadow-lg border-border hover:border-primary transition-colors">
+            <Card className="h-full bg-card/80 backdrop-blur-sm shadow-lg border-border hover:border-primary transition-colors text-center md:text-left">
               <CardHeader>
                 <CardTitle className="text-foreground">Mission</CardTitle>
               </CardHeader>

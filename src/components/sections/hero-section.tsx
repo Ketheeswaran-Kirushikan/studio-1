@@ -11,7 +11,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-grid-primary/10 [mask-image:linear-gradient(to_bottom,white_5%,transparent_90%)]"></div>
       <div className="container px-4 md:px-6 z-10">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-16 xl:gap-24 items-center">
-          <div className="flex flex-col justify-center space-y-4 text-center lg:text-left animate-fade-in-up">
+          <div className="flex flex-col justify-center space-y-4 text-center animate-fade-in-up">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl xl:text-7xl/none font-headline text-foreground">
                 Hello, I’m Loganathan Abibarnman
@@ -20,10 +20,10 @@ export function HeroSection() {
                 Digital Marketing Executive | Visual Content Creator
               </p>
             </div>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed mx-auto lg:mx-0">
+            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed mx-auto">
               A passionate and result-driven Digital Marketing Executive & Visual Content Creator with a keen eye for aesthetics and a strategic mindset. Specializing in elevating fashion and textile brands through compelling visual narratives and impactful digital campaigns.
             </p>
-            <div className="w-full max-w-sm space-y-2 mx-auto lg:mx-0 pt-4">
+            <div className="w-full max-w-sm space-y-2 mx-auto pt-4">
                 <a href="#portfolio">
                     <Button size="lg" className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 shadow-lg">
                         View My Work
