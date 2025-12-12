@@ -15,7 +15,7 @@ const socialLinks = [
 
 export function ContactSection() {
   return (
-    <section id="contact" className="w-full py-20 md:py-32 bg-secondary/10">
+    <section id="contact" className="w-full py-20 md:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <AnimatedSection>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">

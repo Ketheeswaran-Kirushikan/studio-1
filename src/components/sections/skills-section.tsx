@@ -4,7 +4,7 @@ import { AnimatedSection } from '@/components/ui/animated-section';
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="w-full py-20 md:py-32 bg-background">
+    <section id="skills" className="w-full py-20 md:py-32 bg-secondary/10">
       <div className="container px-4 md:px-6">
         <AnimatedSection>
           <Card className="max-w-4xl mx-auto bg-card/80 backdrop-blur-sm shadow-lg border-border">
