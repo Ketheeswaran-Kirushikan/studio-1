@@ -28,7 +28,7 @@ export function VideoPortfolioSection() {
                     src={video.videoUrl}
                     data-ai-hint={video.videoHint}
                     controls
-                    className="object-cover w-full aspect-video"
+                    className="object-cover w-full aspect-[9/16]"
                   />
                 </CardContent>
               </Card>
