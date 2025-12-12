@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, LucideIcon } from 'lucide-react';
+import { Menu, X, Bot } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
@@ -39,7 +39,7 @@ export function Header() {
           <Link href="#home" className="text-2xl font-bold font-headline text-primary">
             Abibarnman
           </Link>
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden md:flex items-center gap-6">
             {navLinks.map(({ href, label }) => (
               <Link
                 key={label}
@@ -50,6 +50,12 @@ export function Header() {
                 {label}
               </Link>
             ))}
+            <Link href="/content-generator" passHref>
+                <Button variant="outline" size="sm" className="gap-2">
+                    <Bot />
+                    AI Tools
+                </Button>
+            </Link>
           </nav>
           <div className="md:hidden">
             <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)}>
@@ -71,6 +77,9 @@ export function Header() {
                 {label}
               </Link>
             ))}
+            <Link href="/content-generator" className="text-lg font-medium text-foreground hover:text-primary transition-colors" onClick={() => setIsOpen(false)}>
+                AI Tools
+            </Link>
           </nav>
         </div>
       )}

@@ -13,14 +13,14 @@ export function VideoPortfolioSection() {
         <AnimatedSection>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-foreground">Project Videos</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">
               A collection of video projects showcasing editing and production skills.
             </p>
           </div>
         </AnimatedSection>
         
         <AnimatedSection delay={200}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {portfolioVideos.map((video, index) => (
               <Card key={index} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-card/80 border-border hover:border-primary">
                 <CardContent className="p-0">

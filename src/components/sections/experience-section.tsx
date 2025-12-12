@@ -52,12 +52,12 @@ export function ExperienceSection() {
         <AnimatedSection>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline text-foreground">My Experience</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed">
               A blend of creative and analytical skills honed over years of practice.
             </p>
           </div>
         </AnimatedSection>
-        <div className="grid gap-6 sm:grid-cols-2 lg:gap-8">
+        <div className="grid gap-6 sm:grid-cols-2 lg:gap-8 max-w-6xl mx-auto">
           {experiences.map((exp, index) => (
             <AnimatedSection key={exp.title} delay={index * 100}>
               <Card className="h-full transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border hover:border-primary">
